@@ -1,7 +1,6 @@
-package per.leetcode.replaceWord;
+package per.leetcode.subject;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**

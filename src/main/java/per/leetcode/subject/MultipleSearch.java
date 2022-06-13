@@ -1,10 +1,8 @@
-package per.leetcode.replaceWord;
+package per.leetcode.subject;
 
 import com.google.gson.Gson;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Map;
 
 /**
  * @Author：TangWenBiao
@@ -39,7 +37,7 @@ public class MultipleSearch {
         return positionsIndex;
     }
 
-    private static class PositionWordTree extends BasicWordTree<PositionWordTree>{
+    private static class PositionWordTree extends BasicWordTree<PositionWordTree> {
 
         private int position;
 
